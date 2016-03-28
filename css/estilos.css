@@ -218,6 +218,7 @@ h2{
     background-image: url('../img/05/fondo.png');
     background-repeat: no-repeat;
     background-size: cover;
+        width: 100%;
 }
 
 .bg-orange-2{
@@ -341,28 +342,22 @@ section{
 }
 
 .p1 {
-  animation-duration: 2s;
   animation-delay: 1.5s;
 }
 .p2 {
-  animation-duration: 2s;
-  animation-delay: 2s;
-}
-.p3 {
-  animation-duration: 2s;
   animation-delay: 2.5s;
 }
-.p4 {
-  animation-duration: 2s;
-  animation-delay: 3.0s;
-}
-.p5 {
-  animation-duration: 2s;
+.p3 {
   animation-delay: 3.5s;
 }
+.p4 {
+  animation-delay: 4.5s;
+}
+.p5 {
+  animation-delay: 5.5s;
+}
 .p6 {
-  animation-duration: 2s;
-  animation-delay: 4.0s;
+  animation-delay: 6.5s;
 }
 
 /* ANIMACIONES DE CIRCULO */
