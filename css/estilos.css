@@ -1,0 +1,754 @@
+@font-face {
+    font-family: TelefonicaHeadline-Light;
+    src: url('../fonts/TelefonicaHeadline-Light.otf');
+}
+@font-face {
+    font-family: TelefonicaScript;
+    src: url('../fonts/TelefonicaScript_0.otf');
+}
+@font-face {
+    font-family: TelefonicaText-Bold;
+    src: url('../fonts/TelefonicaText-Bold.otf');
+}
+@font-face {
+    font-family: TelefonicaText-Italic;
+    src: url('../fonts/TelefonicaText-Italic.otf');
+}
+@font-face {
+    font-family: TelefonicaText-Regular;
+    src: url('../fonts/TelefonicaText-Regular.otf');
+
+}
+a{
+  cursor: pointer;
+}
+.bg-amarillo {
+    background-color: #EFEF40;
+    height: 35px;
+}
+.color-white{
+  color: white !important;
+}
+.bg-telefonica{
+  background-image: url('../img/71/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liquidacion {
+    margin-top: 0px !important;
+    margin-bottom: 50px !important;
+}
+.margintop-6 {
+  margin-top: 6px;
+}
+.margintop-20 {
+  margin-top: 20px;
+}
+.marginbottom-20 {
+  margin-bottom: 20px;
+}
+.margintop-50 {
+  margin-top: -50px;
+}
+.marginbottom-55 {
+  margin-bottom: 55px;
+}
+.bg-green {
+  background-color: #24B06F !important;
+}
+.bg-1-pink {
+  background-color: #EE38A3 !important;
+}
+.bg-1-purple {
+  background-color: #AA43A8 !important;
+}
+.pb-56{
+  padding-bottom: 56px;
+}
+.border-green {
+  border-top: 34px solid #24B06F !important;
+}
+.border-purple {
+  border-top: 34px solid #AA43A8 !important;
+}
+.color-green {
+  color: #23AD6D !important;
+}
+.color-pink {
+    color: #ED37A2;
+}
+.color-purple {
+      color: #A943A7 !important;
+}
+.font-bold {
+  font-family: TelefonicaText-Bold; }
+
+.font-italic {
+  font-family: TelefonicaText-Italic; }
+
+.font-regular {
+  font-family: TelefonicaText-Regular; }
+
+.font-script {
+  font-family: TelefonicaScript; }
+
+
+body{
+    font-family: TelefonicaText-Regular;
+}
+
+h1,h2,h3{
+    font-family: TelefonicaText-Bold;
+}
+h1{  
+  font-size: 24px;
+}
+
+h2{  
+  font-size: 20px;
+  line-height: 6;
+}
+
+/* Slide css */
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color:#005366;
+  height: 85px;
+}
+
+.footer h4{
+    font-family: TelefonicaText-Bold;
+    
+}
+
+
+.footer .pagination{
+    font-family: TelefonicaText-Regular;
+    font-size: 17px;
+    margin: 5px 0;   
+
+}
+
+.footer  .pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 5px;
+    margin-left: -1px;    
+    color: #005366;
+    text-decoration: none;
+    background:transparent;
+    border: none;
+}
+
+.footer .pagination>li>span.line {
+    border-right: solid 1px #D4D4D4;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.footer .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background-color: #fff;
+    
+}
+
+
+
+/* Backgrounds */
+
+.bg{
+   width: 100%;
+  height: 100%;
+  position: relative;
+ 
+  display: flex;
+  flex-direction: column;
+ 
+ 
+
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  color: white;
+
+}
+
+.center {
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.bg-blue-1{
+  background-image: url('../img/backgrounds/blue-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.bg-blue-2{
+  background-image: url('../img/backgrounds/blue-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-blue-3{
+  background-image: url('../img/backgrounds/blue-3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-orange-1{
+    background-image: url('../img/05/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-orange-2{
+
+}
+
+.bg-orange-3{
+
+}
+
+
+.bg-pink-1 {
+  background-image: url('../img/19/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-pink-2{
+
+}
+
+.bg-pink-3{
+
+}
+
+.bg-green-1 {
+  background-image: url('../img/39/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-green-2{
+
+}
+
+.bg-green-3{
+
+}
+
+
+.bg-purple-1 {
+  background-image: url('../img/56/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-purple-2{
+
+}
+
+.bg-purple-3{
+
+}
+
+.bg-telefonica{
+
+}
+
+/* Elements */ 
+
+img {
+  vertical-align: middle; }
+
+.circulo-img{
+    background-color: white;
+    border: 4px solid #0086C3;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;    
+    
+}
+
+.p-company{
+   padding: 70px 25px;
+}
+
+.p-hands{
+   padding: 60px 50px;
+}
+/*======== SLIDES TIEMPOS (delay) ==========*/
+
+/* Help! (I need somebody):
+   Aquí se especifican las propiedades de cada objeto, 
+   identificado con id unicos. La nomenclatura es "s{number_of_slide}_nombreobjeto",
+   por ejemplo: 
+   s1_persona, s1_reloj, s1_dialogo, s2_personita
+
+*/
+
+/* = SIP TRUNK = */
+
+h1,h2,h3,h4{
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+section{
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+
+
+
+/* Slide 1 */
+
+#s1_curva {
+  animation-duration: 1s;
+  animation-delay: 2s;
+  
+}
+
+
+/* Slide 2 */
+
+
+#s2_personaje {
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+
+}
+
+/* Slide 3 */
+
+.content-circles{
+  position:relative;
+}
+.linear-circle{
+  width:200px;
+  height:200px;
+  border:3px dashed #ffffff;
+  position:absolute;
+  border-radius:50%;
+  z-index:-1;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 10s linear infinite;
+  -moz-animation: rotating 10s linear infinite;
+  -ms-animation: rotating 10s linear infinite;
+  -o-animation: rotating 10s linear infinite;
+  animation: rotating 10s linear infinite;
+}
+.lc1{
+  top:-100px;
+  left:17%;
+}
+.lc2{
+  top:-100px;
+  left:42%;
+}
+.lc3{
+  top:-100px;
+  left:67%;
+}
+.circle-1{
+  position:absolute;
+  left:5%;
+  top:-20px;
+}
+.circle-2{
+  position:absolute;
+  left:30%;
+  top:-180px;
+}
+.circle-3{
+  position:absolute;
+  left:55%;
+  top:-180px;
+}
+.circle-4{
+  position:absolute;
+  left:80%;
+  top:-20px;
+}
+.content-circle-1 {
+    position: absolute;
+    right: 0;
+}
+
+.circle-big {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    background-color: #fff;
+    float: left;
+}
+
+.circle-big  > p {
+    position: absolute;
+    font-size: 40px;
+    z-index: 20;
+    right: 77px;
+}
+.c-in1 {
+    background-color: #FF6532;
+}
+.circle-small {
+    position: absolute;
+    top: -13px;
+    left: -8px;
+    height: 96px;
+    width: 96px;
+    border-top-left-radius: 200px 200px;
+    border-bottom-right-radius: 220px 200px;
+    transform: rotate(45deg);
+    margin-left: 50px;
+}
+.circle-big  > h4 {
+    position: absolute;
+    color: #357C8C;
+    bottom: 60px;
+    width:100%;
+    text-align:center;
+}
+
+/*  CIRCLE 3 */
+
+
+.content-circle-3 {
+    position: absolute;
+    margin: 0 auto;
+    right: 9;
+    align-items: stretch;
+    right: 100px;
+}
+/* CIRCLE 2 */
+
+.c-in2 {
+    background-color: #f53aa8;
+}
+
+/* CIRCLE 3 */
+
+.c-in3 {
+    background-color: #27BB77;
+}
+
+/* CIRCLE 4 */
+
+.c-in4 {
+    background-color: #a944a8;
+}
+
+/* CIRLCE 5 */
+
+.c-in5 {
+    background-color: #008598;
+}
+.img-curva {
+  margin-top: 25px;
+}
+.content-repite{
+  width: 120px;
+    height: 120px;
+    border-radius: 130px;
+    background-color: #f86231;
+    border: 2px solid white;
+    padding: 15%;
+}
+.arrow-sky > img {
+      height: 125px;
+}
+.margintop-15 {
+      margin-top: 15px;
+}
+.circle-white {
+  background-color: white;
+  padding: 15%;
+  text-align: center;
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  margin-left: 0px;
+  margin: 30px auto;
+}
+.circle-white-small {
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+  border-radius: 71%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content-americatel {
+    padding-bottom: 3%;
+}
+
+.font-script {
+    font-family: TelefonicaScript;
+}
+.padding-section {
+  width: 100%;
+  padding-left: 19%;
+}
+.button-reto {
+  width: 210px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(249, 110, 65);
+  border: 0px none;
+  height: 85px;
+  margin-top: 20%;
+  font-size: 30px;
+  margin-bottom: 3%;
+}
+
+
+.content-check {
+    position: relative;
+}
+.content-check .content-text-check {
+  width: 430px;
+  position: absolute;
+  top: 94px;
+  left: 262px;
+  text-align: left;
+  color: rgb(246, 97, 49);
+}
+.content-check {
+    position: relative;
+}
+
+.margin-bott-5 {
+  margin-bottom: 5%;
+}
+.marginbott-25 {
+  margin-bottom: 25px;
+}
+.fontsize-22 {
+  font-size: 22px;
+}
+.sale, .chart-heigh {
+  margin: 0 auto;
+  width: 135px;
+  height: 35px;
+  background-color: white;
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+.chart-sale > ul {
+    position: relative;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+ .chart-heigh {
+    margin: 0 auto;
+    width: 135px;
+    height: 35px;
+    background-color: #fff;
+    position: relative;
+}
+.chart-heigh p {
+    color: #F43AA8;
+    margin: 0;
+    font-size: 22px;
+}
+.sale > p, .chart-heigh > p {
+    color: #F43AA8;
+    margin: 0;
+    font-size: 22px;
+}
+.list-unstyled >li > div {
+  display: inline-block;
+  margin: 5px;
+}
+.list-arrow {
+    margin-left: 9px;
+    margin-bottom: 2px;
+    width: 240px;
+    padding: 1.3px;
+    border-radius: 3px;
+    border: 2.6px solid #fff;
+    font-size: 16px;
+    background-color: #E9369F;
+    display: inline-block;
+}
+.chart-sale {
+  text-align: center;
+}
+.top-o {
+    top: 0px;
+}
+.calloutDown {
+  height: 0;
+  width: 0px;
+  border-top: 34px solid #ffffff;
+  border-left: 113px dotted transparent;
+  border-right: 110px dotted transparent;
+  left: 0;
+  top: 0px;
+  margin: 0 auto;
+  z-index: 11;
+}
+.calloutDown2 {
+  position: relative;
+  left: -111px;
+  top: -36px;
+  height: 0;
+  width: 0;
+  border-top: 34px solid #E9369F;
+  border-left: 111px dotted transparent;
+  border-right: 107px dotted transparent;
+  z-index: 10;
+}
+.divContainerDown {
+  background-color: #E9369F;
+  border: solid 1px #ffffff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  position: relative;
+  top: 1px;
+  z-index: 3;
+  width: 220px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 11px;
+}
+.animation {
+  left: 426px;
+  bottom: 0px;
+  z-index: 18;
+}
+.tablet {
+      margin-bottom: -135px !important;
+}
+.animation, .download {
+  position: absolute;
+  padding: 7px 24px;
+  color: #F43AA8;
+  background-color: #fff;
+}
+.download {
+  right: 425px;
+  bottom: 0px;
+  z-index: 20;
+}
+.button-chart-triangle {
+  position: relative;
+}
+.download-tablet {
+  position: absolute;
+  right: 129px;
+  top: 215px;
+}
+.btn-one {
+  position: absolute;
+  left: 220px;
+  top: -28px;
+  bottom: -5px;
+}
+.circle-white-large {
+  background-color: #fff;
+  width: 26%;
+  border-radius: 250px;
+  color: #00DE8D;
+  margin: 0 auto;
+  padding: 8% 0%;
+  text-align: center;
+}
+.content-intern-check > p {
+    color: #646464;
+    padding-left: 3%;
+    line-height: 35px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+input {
+    margin-right: 3% !important;
+}
+.content-copa1 {
+  padding: 5px;
+    margin: 40px auto 0;
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background-color: #f86231;
+    top: 50px;
+    left: 60px;
+}
+
+.content-copa {
+    width: 120px;
+    height: 120px;
+    border-radius: 130px;
+    background-color: #f86231;
+    border: 2px solid white;
+    padding: 15%;
+}
+
