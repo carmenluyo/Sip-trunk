@@ -333,10 +333,66 @@ section{
 /* Slide 2 */
 
 
-#s2_personaje {
-  animation-duration: 1s;
-  animation-delay: 1.5s;
+/* ANIMACIONES */
 
+#s2_personaje {
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+}
+
+.p1 {
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+.p2 {
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+.p3 {
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+}
+.p4 {
+  animation-duration: 2s;
+  animation-delay: 3.0s;
+}
+.p5 {
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+}
+.p6 {
+  animation-duration: 2s;
+  animation-delay: 4.0s;
+}
+
+/* ANIMACIONES DE CIRCULO */
+
+.circle-1-animacion {
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+
+.circle-2-animacion {
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+}
+.circle-3-animacion {
+  animation-duration: 2s;
+  animation-delay: 3.5s;
+}
+
+.circle-4-animacion {
+  animation-duration: 2s;
+  animation-delay: 4.5s;
+}
+.circle-5-animacion {
+  animation-duration: 2s;
+  animation-delay: 5.5s;
+}
+
+.circle-6-animacion {
+  animation-duration: 2s;
+  animation-delay: 6.5s;
 }
 
 /* Slide 3 */
