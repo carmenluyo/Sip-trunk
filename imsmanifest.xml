@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.0.2 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-4B7B234B-150C-08D7-4727-5BA73A42A9CA" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-3BB46040-900D-AECD-94F1-EE4DE5209590">
+    <organization identifier="ORG-3BB46040-900D-AECD-94F1-EE4DE5209590" structure="hierarchical">
+      <title>Derrama Magisterial</title>
+      <item identifier="ITEM-A61E5B28-A011-F4BB-938E-2B2E17708227" identifierref="RES-49B95160-A5B7-944A-410A-A7F959678FDD" isvisible="true">
+        <title>Derrama Magisterial</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-49B95160-A5B7-944A-410A-A7F959678FDD" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html" />
+      <file href="code/SCOFunctions.js" />
+      <file href="code/swfobject.js" />
+    </resource>
+  </resources>
+</manifest>
+
